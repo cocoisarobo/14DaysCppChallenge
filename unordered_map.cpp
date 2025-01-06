@@ -39,3 +39,19 @@ int main() {
     cout << mostCommonWord(document);
     return 0;
 }
+
+
+// unordered_map <int> words(word, frequency);
+
+// loop: (if document != '\0'){
+//     if(word != in words[]){
+//         add word & increase its frequency;
+//     }
+//     goto loop;
+// }
+
+// loop: (if words != '\0'){
+//     if frequency > max_frequency { max_frequency = frequency}
+// }
+
+// mostCommonWord = lowercase(mostCommonWord)
